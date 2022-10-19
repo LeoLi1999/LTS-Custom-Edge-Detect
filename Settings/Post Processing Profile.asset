@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Post Processing Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 5648062433739742368}
+--- !u!114 &5648062433739742368
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96c39b41c1fa7a4fa8357202ad76716, type: 3}
+  m_Name: LTSVolumeEdgeDetect
+  m_EditorClassIdentifier: 
+  active: 1
+  useEdgeDetect:
+    m_OverrideState: 1
+    m_Value: 1
+  useDepthNormal:
+    m_OverrideState: 1
+    m_Value: 1
+  useDecodeDepthNormal:
+    m_OverrideState: 1
+    m_Value: 0
+  edgeColor:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  backgroundColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  edgeOnly:
+    m_OverrideState: 1
+    m_Value: 0.5
